@@ -654,6 +654,18 @@ video {
   margin-top: 55px;
 }
 
+.mt-\[0px\] {
+  margin-top: 0px;
+}
+
+.mt-\[4px\] {
+  margin-top: 4px;
+}
+
+.mt-\[45px\] {
+  margin-top: 45px;
+}
+
 .flex {
   display: flex;
 }
@@ -1156,6 +1168,14 @@ video {
 
 .ps-5 {
   padding-inline-start: 1.25rem;
+}
+
+.ps-2 {
+  padding-inline-start: 0.5rem;
+}
+
+.ps-3 {
+  padding-inline-start: 0.75rem;
 }
 
 .text-center {
