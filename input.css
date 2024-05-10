@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: futura-medium;
+    src: url(./asset/fonts/futura/FUTURA65MEDIUM.TTF);
+}
+
+.futura-medium{
+    font-family: futura-medium;
+}
+
+@font-face {
+    font-family: futura-regular;
+    src: url(./asset/fonts/futura/FUTURA55REGULAR.TTF);
+}
+
+.futura-regular{
+    font-family: futura-regular;
+}
+
+@font-face {
+    font-family: montserrat-bold;
+    src: url(./asset/fonts/montserratAlternates/MontserratAlternates-Bold.ttf);
+}
+
+.montserrat-bold{
+    font-family: montserrat-bold;
+}
+
+
+@font-face {
+    font-family: futura-bold;
+    src: url(./asset/fonts/futura/FUTURA75BOLD.TTF);
+}
+
+.futura-bold{
+    font-family: futura-bold;
+}
+
+@font-face {
+    font-family: montserrat-medium;
+    src: url(./asset/fonts/montserratAlternates/MontserratAlternates-Medium.ttf);
+}
+.montserrat-medium{
+    font-family: montserrat-medium;
+}
+@font-face {
+    font-family: futura-bold-italic;
+    src: url(./asset/fonts/futura/FUTURA76BOLDITALIC.TTF);
+}
+.futura-bold-italic{
+    font-family: futura-bold-italic;
+}
+
+.developer-hire:focus + .developer-details{
+    display: flex;
+}
+
+.qa-hire:focus + .developer-details{
+    display: flex;
+}
+
+.developer-details:focus{
+    display: flex;
+}
+.developer-details:hover{
+    display: flex;
+}
+.developer-hire:focus > p::after{
+    content: "-";
+}
+
+.developer-hire > p::after{
+    content: "+";
+}
+
+
+.qa-hire:focus > p::after{
+    content: "-";
+}
+
+.qa-hire > p::after{
+    content: "+";
+}
