@@ -55,33 +55,8 @@
     font-family: futura-bold-italic;
 }
 
-.developer-hire:focus + .developer-details{
-    display: flex;
-}
-
-.qa-hire:focus + .developer-details{
-    display: flex;
-}
-
-.developer-details:focus{
-    display: flex;
-}
-.developer-details:hover{
-    display: flex;
-}
-.developer-hire:focus > p::after{
-    content: "-";
-}
-
-.developer-hire > p::after{
-    content: "+";
-}
 
 
-.qa-hire:focus > p::after{
-    content: "-";
-}
-
-.qa-hire > p::after{
-    content: "+";
+html{
+    scroll-behavior: smooth;
 }
