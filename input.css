@@ -60,3 +60,40 @@
 html{
     scroll-behavior: smooth;
 }
+
+.btn-dropDown:hover+.btn-dpList,.btn-dpList:hover{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: #3D135E;
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    transform: scaleY(1) translateY(100%);
+}
+
+.btn-dpList{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 0;
+    right: 0;
+    bottom: 0;
+    background: #3D135E;
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    transform:scaleY(0)  translateY(100%);
+    transform-origin: center;
+    transition: 1s;
+}
