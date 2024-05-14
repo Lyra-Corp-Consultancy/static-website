@@ -690,10 +690,6 @@ video {
   height: 38px;
 }
 
-.h-\[53vh\] {
-  height: 53vh;
-}
-
 .h-\[70px\] {
   height: 70px;
 }
@@ -1034,11 +1030,6 @@ video {
 .py-\[5px\] {
   padding-top: 5px;
   padding-bottom: 5px;
-}
-
-.px-\[\] {
-  padding-left: ;
-  padding-right: ;
 }
 
 .pb-3 {
