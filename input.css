@@ -41,6 +41,15 @@
 }
 
 @font-face {
+    font-family: zoho;
+    src: url(./asset/fonts/zoho/Zoho\ Puvi\ Medium.ttf);
+}
+
+.zoho{
+    font-family: zoho;
+}
+
+@font-face {
     font-family: montserrat-medium;
     src: url(./asset/fonts/montserratAlternates/MontserratAlternates-Medium.ttf);
 }

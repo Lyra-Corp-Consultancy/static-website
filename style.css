@@ -654,10 +654,6 @@ video {
   margin-top: 5px;
 }
 
-.mt-\[\] {
-  margin-top: ;
-}
-
 .flex {
   display: flex;
 }
@@ -704,18 +700,6 @@ video {
 
 .h-full {
   height: 100%;
-}
-
-.h-\[\] {
-  height: ;
-}
-
-.h-\[300p\] {
-  height: 300p;
-}
-
-.h-\[300px\] {
-  height: 300px;
 }
 
 .w-\[100\%\] {
@@ -965,11 +949,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-green-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
-}
-
 .p-\[5px\] {
   padding: 5px;
 }
@@ -1018,6 +997,11 @@ video {
   padding-right: 45px;
 }
 
+.px-\[5\%\] {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
 .px-\[57px\] {
   padding-left: 57px;
   padding-right: 57px;
@@ -1051,36 +1035,6 @@ video {
 .py-\[5px\] {
   padding-top: 5px;
   padding-bottom: 5px;
-}
-
-.px-\[\] {
-  padding-left: ;
-  padding-right: ;
-}
-
-.px-\[10\%\] {
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
-.px-\[0\%\] {
-  padding-left: 0%;
-  padding-right: 0%;
-}
-
-.px-\[\%\] {
-  padding-left: %;
-  padding-right: %;
-}
-
-.px-\[5\%\] {
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-.px-\[5\`\%\] {
-  padding-left: 5`%;
-  padding-right: 5`%;
 }
 
 .pb-3 {
@@ -1316,6 +1270,16 @@ video {
 }
 
 @font-face {
+  font-family: zoho;
+
+  src: url(./asset/fonts/zoho/Zoho\ Puvi\ Medium.ttf);
+}
+
+.zoho{
+  font-family: zoho;
+}
+
+@font-face {
   font-family: montserrat-medium;
 
   src: url(./asset/fonts/montserratAlternates/MontserratAlternates-Medium.ttf);
@@ -1541,11 +1505,6 @@ html{
     padding-right: 131px;
   }
 
-  .md\:px-\[200px\] {
-    padding-left: 200px;
-    padding-right: 200px;
-  }
-
   .md\:px-\[30px\] {
     padding-left: 30px;
     padding-right: 30px;
@@ -1566,6 +1525,11 @@ html{
     padding-right: 67px;
   }
 
+  .md\:px-\[8\%\] {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
   .md\:py-10 {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
@@ -1576,38 +1540,8 @@ html{
     padding-bottom: 30px;
   }
 
-  .md\:px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-  .md\:px-\[20\] {
-    padding-left: 20;
-    padding-right: 20;
-  }
-
-  .md\:px-\[2\] {
-    padding-left: 2;
-    padding-right: 2;
-  }
-
-  .md\:px-\[2\%\] {
-    padding-left: 2%;
-    padding-right: 2%;
-  }
-
-  .md\:px-\[5\%\] {
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-
-  .md\:px-\[8\%\] {
-    padding-left: 8%;
-    padding-right: 8%;
-  }
-
-  .md\:pb-0 {
-    padding-bottom: 0px;
+  .md\:pb-3 {
+    padding-bottom: 0.75rem;
   }
 
   .md\:pb-\[75px\] {
@@ -1628,14 +1562,6 @@ html{
 
   .md\:pt-20 {
     padding-top: 5rem;
-  }
-
-  .md\:pb-2 {
-    padding-bottom: 0.5rem;
-  }
-
-  .md\:pb-3 {
-    padding-bottom: 0.75rem;
   }
 
   .md\:text-\[13px\] {
@@ -1700,16 +1626,8 @@ html{
     display: none;
   }
 
-  .lg\:h-\[550px\] {
-    height: 550px;
-  }
-
   .lg\:h-auto {
     height: auto;
-  }
-
-  .lg\:h-screen {
-    height: 100vh;
   }
 
   .lg\:min-h-screen {
