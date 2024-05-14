@@ -7,7 +7,7 @@
     <title>Lyracorp</title>
   </head>
   <body onload="loader()">
-    <header class="w-full flex flex-col lg:h-screen bg-[#F4E6FF]">
+    <header class="w-full flex flex-col lg:min-h-screen bg-[#F4E6FF]">
       <nav class="flex py-6 px-[10px] relative z-40 items-center md:px-12 justify-between">
         <div>
           <img src="./asset/images/name.png" class="md:w-auto w-[150px]" alt="" srcset="" />
@@ -59,26 +59,26 @@
           <div class="grid lg:grid-cols-3 items-end gap-4 pt-[20px] md:pt-20">
             <img class="md:hidden" src="./asset/images/erpImage.png" alt="" />
 
-            <div class="bg-[#FAF3FF] shadow-[0px_0px_7px_0px_#00000052] px-[45px] py-[13px] md:h-[350px] rounded-[10px] futura-medium">
+            <div class="bg-[#FAF3FF] shadow-[0px_0px_7px_0px_#00000052] px-[5%] py-[13px]  rounded-[10px] futura-medium">
               <h6 class="text-[#3D135E] text-[20px]">Key Modules:</h6>
               <div class="w-full bg-[#E1BAFF] rounded-full flex items-center mt-5">
                 <img src="./asset/icons/inventory.png" class="bg-[#3D135E] h-[38px] w-[38px] p-[6px] rounded-full" alt="" />
                 <h6 class="text-start ps-3 w-full text-[20px]">Inventory Management</h6>
               </div>
               <div class="w-full bg-[#F1E0FF] rounded-full flex items-center mt-5">
-                <img src="./asset/icons/inventory.png" class="bg-[#3D135E] h-[38px] w-[38px] p-[6px] rounded-full" alt="" />
+                <img src="./asset/icons/production.png" class="bg-[#3D135E] h-[38px] w-[38px] p-[6px] rounded-full" alt="" />
                 <h6 class="text-start ps-3 w-full text-[20px]">Production Management</h6>
               </div>
               <div class="w-full bg-[#E1BAFF] rounded-full flex items-center mt-5">
-                <img src="./asset/icons/inventory.png" class="bg-[#3D135E] h-[38px] w-[38px] p-[6px] rounded-full" alt="" />
+                <img src="./asset/icons/quality.png" class="bg-[#3D135E] h-[38px] w-[38px] p-[6px] rounded-full" alt="" />
                 <h6 class="text-start ps-3 w-full text-[20px]">Quality Management</h6>
               </div>
               <div class="w-full bg-[#F1E0FF] rounded-full flex items-center mt-5">
-                <img src="./asset/icons/inventory.png" class="bg-[#3D135E] h-[38px] w-[38px] p-[6px] rounded-full" alt="" />
+                <img src="./asset/icons/supply.png" class="bg-[#3D135E] h-[38px] w-[38px] p-[6px] rounded-full" alt="" />
                 <h6 class="text-start ps-3 w-full text-[20px]">Supply Chain Management</h6>
               </div>
               <div class="w-full bg-[#E1BAFF] rounded-full flex items-center mt-5">
-                <img src="./asset/icons/inventory.png" class="bg-[#3D135E] h-[38px] w-[38px] p-[6px] rounded-full" alt="" />
+                <img src="./asset/icons/sales.png" class="bg-[#3D135E] h-[38px] w-[38px] p-[6px] rounded-full" alt="" />
                 <h6 class="text-start ps-3 w-full text-[20px]">Sales Management</h6>
               </div>
             </div>
@@ -100,12 +100,12 @@
 
         <div class="bg-[#F6EBFF] pt-3 pb-[20px] md:pb-[75px] mt-5">
           <h2 class="futura-medium text-center text-[24px]">Our Services</h2>
-          <div class="px-[10px] md:px-[200px] grid lg:grid-cols-2 gap-[45px] pt-[50px]">
-            <div class="lg:h-auto md:pb-0 pb-4 shadow-[0px_4px_7px_0px_#6F00AD] rounded-[10px] futura-medium">
+          <div class="px-[10px] md:px-[8%] grid lg:grid-cols-2 gap-[45px] pt-[50px]">
+            <div class="lg:h-auto md:pb-3 pb-4 shadow-[0px_4px_7px_0px_#6F00AD] rounded-[10px] futura-medium">
               <div class="w-full h-[200px] bg-[#601D95] rounded-[10px] md:px-[67px] py-[5px] flex gap-[35px]">
                 <img src="./asset/images/mobile.png" alt="" srcset="" />
                 <div class="flex flex-col justify-center items-center gap-2">
-                  <h4 class="text-center futura-medium text-[23px] text-white">App Development</h4>
+                  <h4 class="text-center futura-medium text-[23px] text-white">Application Development</h4>
                   <h5 class="text-[15px] futura-regular text-white">(Web & Mobile)</h5>
                 </div>
               </div>
@@ -115,7 +115,7 @@
               </ul>
             </div>
 
-            <div class="lg:h-auto md:pb-0 pb-4 futura-medium shadow-[0px_4px_7px_0px_#6F00AD] rounded-[10px]">
+            <div class="lg:h-auto md:pb-3 pb-4 futura-medium shadow-[0px_4px_7px_0px_#6F00AD] rounded-[10px]">
               <div class="w-full h-[200px] bg-[#601D95] rounded-[10px] px-[25px] py-[5px] flex gap-[35px]">
                 <img class="md:w-auto w-[50%]" src="./asset/images/management.png" alt="" srcset="" />
                 <div class="flex flex-col justify-center items-center gap-2">
@@ -123,9 +123,11 @@
                 </div>
               </div>
               <ul class="list-outside px-[43px] text-[18px] md:text-[19px] mt-3 list-disc">
-                <li>Driving Business Success Through Strategic Solutions</li>
-                <li class="mt-[10px]">Ensuring successful business outcomes by working top-down as well as bottom-up in your organization</li>
-                <li class="mt-[10px]">Our expert’s team will collaborate with your Top Management to grasp challenges from their perspective. We’ll conduct a thorough analysis covering processes, personnel, customer feedback, performance management, mindset, and behavior, fostering enhancements in efficiency, effectiveness, profitability, leadership alignment, and transformation</li>
+                <li>Driving Business Excellence through Strategic Consulting</li>
+                <li class="mt-[10px]">Ensuring successful business outcomes through innovative ideas and process</li>
+                <li class="mt-[10px]">Our expert team will collaborate with you to understand the challenges faced in your day-to day activities and propose practical solution to the problems.</li>
+                <li class="mt-[10px]">We conduct a thorough analysis covering - processes, personnel, customer feedback, performance management, mindset and behaviour</li>
+                <li class="mt-[10px]">Our Goal: Fostering enhancements in efficiency, effectiveness, profitability, leadership alignment, and transformation</li>
               </ul>
             </div>
           </div>
@@ -253,9 +255,10 @@
             <p id="quote" class="text-[15px] md:text-[22px] md:leading-[26px]">Business and Technology pacesetter with 25+ years of success strategizing and leading organizations at the brink of change and growth. Strong expertise in multiple stakeholders management in Global Engineering Development, Manufacturing & Global IT Services</p>
           </div> -->
 
-          <div class="grid md:grid-cols-2 px-[10px] md:ps-[70px] md:gap-[25px] pt-10 ">
-            <a href="#boopathy" id="initialLoad" onclick="quoteChange('Business and Technology pacesetter with 25+ years of success strategizing and leading organizations at the brink of change and growth. Strong expertise in multiple stakeholders management in Global Engineering Development, Manufacturing & Global IT Services')" class="w-full md:w-[100%] focus:border-4 border-[#A634FF] flex justify-start items-start">
-              <div class=" w-full bg-[#3D135E] cursor-pointer rounded-md py-[12px] px-[12px] flex gap-[32px]">
+          <div class="grid md:grid-cols-2 px-[10px]  md:ps-[70px]  md:gap-[25px] pt-10 ">
+            
+            <a href="#boopathy" id="initialLoad" onclick="quoteChange('Business and Technology pacesetter with 25+ years of success strategizing and leading organizations at the brink of change and growth. Strong expertise in multiple stakeholders management in Global Engineering Development, Manufacturing & Global IT Services')" class="w-full md:w-[100%] focus:border-4 border-[#A634FF] flex h-full justify-start items-start">
+              <div class=" w-full bg-[#3D135E] cursor-pointer rounded-md py-[12px] h-full px-[12px] flex gap-[32px]">
                 <img src="./asset/images/ceo.png" class="bg-[#B2B8B8] w-[70px] h-[70px] md:h-[140px] md:w-[140px] rounded-[10px] md:rounded-[40px] border-[5px] border-[#A634FF]" alt="" srcset="" />
                 <div>
                   <h4 class="futura-medium text-[18px] md:text-[24px] text-white">Boopathy Jayaraman</h4>
@@ -279,12 +282,12 @@
                 </div>
               </div>
             </a>
-            <a href="#sathish" class="focus:border-4 border-[#A634FF] w-[100%] md:w-[90%] rounded-md mt-5 md:mt-0 flex justify-end items-end" onclick="quoteChange('Expertise in \n • Product Development \n • Business Development \n • Client Relationship Management \n • Customer Requirements \n • Solution development \n • Process consultation \n • Creative thinker')">
-              <div class=" bg-[#3D135E] w-full rounded-md py-[12px] pe-[12px] ps-[15px] md:px-[12px] flex justify-between gap-[32px]">
+            <a href="#sathish" class="focus:border-4 border-[#A634FF] w-[100%] md:w-[90%] rounded-md mt-5 md:mt-0 flex h-full justify-end items-end" onclick="quoteChange('Expertise in \n • Product Development \n • Business Development \n • Client Relationship Management \n • Customer Requirements \n • Solution development \n • Process consultation \n • Creative thinker')">
+              <div class=" bg-[#3D135E] w-full rounded-md py-[12px] h-full pe-[12px] ps-[15px] md:px-[12px] flex justify-between gap-[32px]">
                 <div class="flex flex-col justify-start items-start">
                   <h4 class="futura-medium text-[18px] md:text-[24px] text-white">Sathish Kumar Prabaharan</h4>
                   <h4 class="futura-medium text-[16px] md:text-[20px] text-white">Associate Vice President</h4>
-                  <p class="text-[12px] text-white md:text-[16px] md:mt-5 italic md:leading-[26px]">This individual possesses expertise in product development, business development, client relationship management, customer requirements, solution development, process consultation, and creative thinking.</p>
+                  <p class="text-[12px] text-white md:text-[16px] md:mt-5 italic md:leading-[26px]">Business Architect with 22+ years of expertise</p>
                   <div onclick="location.href = 'https://in.linkedin.com/in/sathish-kumar-prabaharan-31047910'" class="p-[5px] md:p-[10px] cursor-pointer rounded-full bg-white aspect-square md:w-[40px] w-[20px] h-[20px] md:h-[40px] mt-3">
                     <svg width="22" height="22" class="hidden md:block" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
